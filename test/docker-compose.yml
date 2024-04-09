@@ -27,7 +27,7 @@ services:
 
   echoserver:
     hostname: echoserver
-    image: gcr.io/google_containers/echoserver:1.3
+    image: gcr.io/google_containers/echoserver:1.5
     networks:
       - echoserver
 
